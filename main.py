@@ -4,9 +4,5 @@ from fastapi.staticfiles import StaticFiles
 
 app = FastAPI()
 
-@app.get('/')
-def home():
-    return FileResponse('client/public/index.html')
-
 # Place After All Other Routes
-app.mount('/', StaticFiles(directory="client/public/"), name="static")
+app.mount('', StaticFiles(directory="client/public/", html=True), name="static")
