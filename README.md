@@ -6,7 +6,7 @@ Simple Combination of FastAPI and Svelte.
 
 1. Clone this Repo ```git clone https://github.com/Gingerbreadfork/fastapi-svelte```
 3. ```pip install -r requirements.txt``` to install python dependencies (ideally in a virtualenv or similar - don't be a savage).
-4. Run ```npx degit sveltejs/template client``` inside root directory to create Svelte app inside ```client``` directory.
+4. Run ```npm create vite@latest client -- --template svelte``` inside root directory to create Svelte app inside ```client``` directory.
 5. Inside ```client``` directory run ```npm install```
 
 ## Local Development:
